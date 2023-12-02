@@ -1,9 +1,9 @@
 import sys
 import pytest
 
-from project_name import create_app
-from project_name.ext.commands import populate_db
-from project_name.ext.database import db
+from shreem_ai import create_app
+from shreem_ai.ext.commands import populate_db
+from shreem_ai.ext.database import db
 
 
 @pytest.fixture(scope="session")

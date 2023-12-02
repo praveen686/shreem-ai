@@ -1,8 +1,8 @@
 import click
 
-from project_name.ext.auth import create_user
-from project_name.ext.database import db
-from project_name.models import Product
+from shreem_ai.ext.auth import create_user
+from shreem_ai.ext.database import db
+from shreem_ai.models import Product
 
 
 def create_db():
